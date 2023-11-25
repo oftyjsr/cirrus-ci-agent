@@ -132,4 +132,3 @@ docker_builder:
     docker buildx build --push --platform linux/amd64,linux/arm64 \
       --tag ghcr.io/cirruslabs/cirrus-ci-agent:$CIRRUS_TAG \
       --tag ghcr.io/cirruslabs/cirrus-ci-agent:latest \
-      .
